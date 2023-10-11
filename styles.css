@@ -1,0 +1,83 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F5F4F1;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  background-color: #E8E4DF;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #D3C8C2;
+  margin-bottom: 15px;
+}
+
+.display-4 {
+  color: #5E5750;
+  margin-bottom: 5px;
+}
+
+.contact-info {
+  font-style: italic;
+  color: #5E5750;
+  margin-bottom: 0;
+}
+
+.card {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card .card-header {
+  color: #5E5750 !important; /* Color of the text in section headers */
+}
+
+.card .card-header.bg-primary {
+  background-color: #D9D1C7 !important; /* Muted beige for education section */
+}
+
+.card .card-header.bg-success {
+  background-color: #D3C8C2 !important; /* Complementing beige */
+}
+
+.card .card-header.bg-info {
+  background-color: #E8E4DF !important; /* Light beige to match jumbotron */
+}
+
+.card-body {
+  padding: 15px;
+  background-color: #F9F8F7; /* Slightly off-white background for better differentiation */
+}
+
+.h3 {
+  margin: 0;
+}
+
+.education-info, .work-title, .extra-title {
+  color: #5E5750;
+  margin-bottom: 10px;
+}
+
+.list-item-description {
+  padding-left: 20px;
+}
+
+.btn {
+  border: none;
+  border-radius: 20px;
+}
+
+footer {
+  padding: 15px;
+  background-color: #E8E4DF;
+  border-radius: 15px;
+  margin-top: 20px;
+}

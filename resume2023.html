@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Nicholas Vasilescu's 2023 Resume</title>
+</head>
+
+<body class="d-flex flex-column mt-4">
+
+    <div class="jumbotron d-flex flex-column align-items-center">
+        <img src="images/Screenshot 2023-06-19 at 1.05.30 PM.jpg" class="img-fluid profile-picture mb-3" alt="Nicholas Vasilescu">
+        <h1 class="display-4 text-center">Nicholas Vasilescu</h1>
+        <p class="lead contact-info">4917 N. Ridge Rd., Wichita, KS 67205</p>
+        <p class="lead contact-info">Email: nickv@testkey.com</p>
+        <p class="lead contact-info">Phone: (316) 249-1783</p>
+        <p class="lead contact-info"><a href="https://www.linkedin.com/in/nick-vasilescu-b7459b25a/" target="_blank">LinkedIn Profile</a></p>
+    </div>    
+
+    <!-- Toggle ALL Section Button -->
+    <div class="d-flex justify-content-center mb-2">
+        <button class="btn btn-secondary" onclick="toggleAllSections()">Toggle All Sections</button>
+    </div>
+
+    <!-- Education Section -->
+    <div class="card mb-4 toggle-section" id="education-section">
+        <div class="card-header bg-primary text-white d-flex justify-content-center">
+            <h2 class="h3">EDUCATION</h2>
+        </div>
+        <div class="card-body">
+            <p class="education-info">Newman University, Wichita, Kansas</p>
+            <p class="education-info">Bachelor of Science in Biology, Pre-Medical Concentration</p>
+            <p class="education-info">GPA: 3.905</p>
+            <p class="education-info">Kansas State Scholar, Honors Graduate</p>
+            <hr>
+            <p class="education-info">Wichita State University, Wichita, Kansas</p>
+            <p class="education-info">Masters of Innovation and Design</p>
+            <p class="education-info">Expected Graduation: Spring 2025</p>
+        </div>
+    </div>
+
+    <!-- Work Experience Section -->
+    <div class="card mb-4 toggle-section" id="work-section">
+        <div class="card-header bg-success text-white d-flex justify-content-center">
+            <h2 class="h3">WORK EXPERIENCE</h2>
+        </div>
+        <div class="card-body">
+            <p class="work-title">Testkey Diagnostics, Wichita, Kansas — Founder & Director of Operations (12/2022-Present)</p>
+            <ul class="list-item-description">
+                <li>Demonstrating visionary leadership in driving the company’s mission, overseeing all aspects of business strategy, product development, and market penetration.</li>
+            </ul>
+            
+            <p class="work-title">Hereditary Neurological Disease Centre, Wichita, Kansas — Huntington’s Disease Sub-Executive Investigator of Research (12/2020-08/2022)</p>
+            <ul class="list-item-description">
+                <li>Worked amongst a team of physicians and performed double-blind clinical trials to research the effects of certain pharmaceutical drugs on the penetrance of Huntington’s disease.</li>
+            </ul>
+            
+            <p class="work-title">Walgreens Pharmacy, Wichita, Kansas — Pharmacy Technician (10/2021-08/2022)</p>
+            <ul class="list-item-description">
+                <li>Administered vaccinations, filled prescription medications, stored and managed records of insurance information, and optimized the coordination of an efficient workflow in the pharmacy.</li>
+            </ul>
+            
+            <p class="work-title">Ascension Via Christi, Wichita, Kansas — Emergency Department Medical Scribe (12/2020-12/2021)</p>
+            <ul class="list-item-description">
+                <li>Assisted Emergency Department Physicians by documenting the patient’s health information, review of systems, physical examinations, laboratory records, and radiology reports.</li>
+            </ul>
+            
+            <p class="work-title">Ken Shannon Northwest YMCA, Wichita, Kansas — Lifeguard & Swim Instructor (06/2020-03/2021)</p>
+            <ul class="list-item-description">
+                <li>Learned and maintained proficiency in first-responder skills such as first aid and CPR. Instructed and communicated effectively with swimmers to develop technique and efficiency.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Extracurriculars Section -->
+    <div class="card mb-4 toggle-section" id="extracurricular-section">
+        <div class="card-header bg-info text-white d-flex justify-content-center">
+            <h2 class="h3">RELEVANT EXTRACURRICULARS</h2>
+        </div>
+        <div class="card-body">
+            <p class="extra-title">Honors Council, Newman University — Board Committee Member (11/2019-Present)</p>
+            <ul class="list-item-description">
+                <li>Appointed to coordinate and establish improvements to the Academic Honors Program.</li>
+            </ul>
+            
+            <p class="extra-title">KU School of Medicine, Wichita, Kansas — Jaydoc Pre-Med Volunteer (05/2022-05/2023)</p>
+            <ul class="list-item-description">
+                <li>Volunteered as a pre-medical assistant at the Guadalupe Health Clinic to help care for underserved cultures and communities.</li>
+            </ul>
+            
+            <p class="extra-title">Medical Professions Club, Newman University — President (09/2019-05/2023)</p>
+            <ul class="list-item-description">
+                <li>Elected as president to lead and coordinate the Medical Professions Club in recognition of my powerful communication and organizational skills.</li>
+            </ul>
+            
+            <p class="extra-title">Student Athlete, Newman University — Triathlon (09/2019-05/2023)</p>
+            <ul class="list-item-description">
+                <li>Utilized time management skills to compete at the collegiate level and excel academically.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Download Resume Button -->
+<div class="d-flex justify-content-center mb-4">
+    <button class="btn btn-dark btn-lg resume-button" onclick="downloadResume(this)">Download Resume</button>
+</div>
+
+    <!-- Footer with Date & Timestamp -->
+    <footer class="mt-auto text-center">
+        <p id="timestamp"></p>
+    </footer>
+
+    <!-- Link to the external script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
